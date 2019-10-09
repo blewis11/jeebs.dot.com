@@ -1,4 +1,13 @@
 .App {
   text-align: center;
+  background-color: #1500ff;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.ascii {
+  font-size: 15px;
+  color:white;
 }
 
