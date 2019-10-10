@@ -46,7 +46,7 @@ const App: React.FC = () => {
         </pre>
       </div>
       <div className="welcomeText">
-        I'm Bejal, nice to meet you  
+        {/* <pre>I'm Bejal :} nice to meet you</pre> */}
       </div>
       <div className="mainContents">
         <div className="tree">
@@ -56,21 +56,21 @@ const App: React.FC = () => {
           <div className="treeOverlay">
             <div className="treeFirstLevel">
               <div className="whoami">
-                <pre>who am i?</pre>
+                <pre><a href='google.com'>whoami.txt</a></pre>
               </div>
               <div className="linkedin">
-                <pre>linkedin</pre>
+                <pre><a target="_blank" href='https://www.linkedin.com/in/bejal-lewis'>linkedin.pdf</a></pre>
               </div>
               <div className="cv">
-                <pre>cv</pre>
+                <pre><a target="_blank">cv.pdf</a></pre>
               </div>
             </div>
             <div className="treeSecondLevel">
               <div className="soundcloud">
-                <pre>soundcloud</pre>
+                <pre><a href="https://soundcloud.com/bejal" target="_blank">soundcloud.mp3</a></pre>
               </div>
               <div className="spotify">
-                <pre>spotify</pre>
+                <pre><a target="_blank" href="https://open.spotify.com/user/bejallewis?si=UdJpJ_aeTJqpd6YsArcUbQ">spotify.mp3</a></pre>
               </div>
             </div>
           </div>
