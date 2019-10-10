@@ -14,7 +14,7 @@ const App: React.FC = () => {
          _\/\\\_______\/\\\__\//\\\\\\\\\\__/\\\\\\\\\__/\\\\\\\\\__\///\\\\\/___ 
           _\///________\///____\//////////__\/////////__\/////////_____\/////_____
 `  
-
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -25,6 +25,28 @@ const App: React.FC = () => {
         <pre>
          {hello}
         </pre>
+      </div>
+      <div className="welcomeText">
+        I'm Bejal, nice to meet you :)
+      </div>
+      <div className="mainContents">
+        <div className="tree">
+          <pre>
+            {`├── css/
+  │   ├── bootstrap.css
+  │   ├── bootstrap.min.css
+  │   ├── bootstrap-theme.css
+  │   └── bootstrap-theme.min.css
+  ├── js/
+  │   ├── bootstrap.js
+  │   └── bootstrap.min.js
+  └── fonts/
+      ├── glyphicons-halflings-regular.eot
+      ├── glyphicons-halflings-regular.svg
+      ├── glyphicons-halflings-regular.ttf
+      └── glyphicons-halflings-regular.woff`}
+          </pre>
+        </div>
       </div>
     </div>
   );

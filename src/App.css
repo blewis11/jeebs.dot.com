@@ -1,13 +1,32 @@
+@import './fonts/webfontkit-20190914-061210/stylesheet.css';
+
 .App {
   text-align: center;
-  background-color: #1500ff;
   position: absolute;
   height: 100%;
   width: 100%;
+  color:#f9f9f9;
 }
 
 .ascii {
   font-size: 15px;
-  color:white;
+}
+
+.welcomeText {
+  font-family: 'ms_sans_serifregular';
+  font-size: 25px;
+}
+
+.mainContents {
+  width: 100%;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.tree {
+  width: 30px;
+  text-align: left;
+  margin: auto;
+  padding-right: 70px;
 }
 
