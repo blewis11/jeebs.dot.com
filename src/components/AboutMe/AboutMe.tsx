@@ -5,7 +5,7 @@ import './AboutMe.css'
 const AboutMe = () => {
   
   return (
-    <pre>
+    <pre className="wrap">
       <div className="mainText">
         I'm glad you asked! I'm a software developer based in Berlin. 
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
