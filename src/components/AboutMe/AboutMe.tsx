@@ -2,21 +2,28 @@ import React from 'react'
 
 import './AboutMe.css'
 
-const AboutMe = () => {
-  
+const AboutMe = (props:any) => {
+  const {
+    setAboutMe
+  } = props
+
   return (
-    <pre className="wrap">
-      <div className="mainText">
-        I'm glad you asked! I'm a software developer based in Berlin. 
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-        quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-        tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
-        ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
-        ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-      </div>
-    </pre>
+    <div>
+      <pre className="wrap">
+        <div className="mainText">
+          I'm glad you asked! I'm Bejal, a software developer based in Berlin. After having worked in numerous teams
+          in different areas of programming, my main drive is to continue working with and learning from amazing people
+          from different backgrounds. From designing and developing complex microservices to reverse engineering obfuscated code - i've worked in amazing teams
+          to solve innovative challenges for the past few years.
+          <br/><br/>
+          I'm here to make connections and meet likeminded people. Wanna chat about tech? Collab on a rad project? I'm game.
+          hit me up at <a href = "mailto: bejallewis@hotmail.com">bejallewis@hotmail.com</a> 📧
+          <div className="backButton" onClick={() => setAboutMe(false)}>
+            <a>{`<-`} back</a>
+          </div>
+        </div>
+      </pre>
+    </div>
   )
 }
 

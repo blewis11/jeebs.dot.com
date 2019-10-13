@@ -14,9 +14,50 @@ pre {
   margin: 0 !important;
 }
 
-.ascii {
-  font-size: 15px;
-  padding-top: 30px;
+@media screen and (max-width: 388px){
+  .ascii {
+    display: none;
+  }
+
+  .mainContents {
+    padding-top: 30vh;
+  }
+}
+
+@media screen and (min-width: 389px){
+  .ascii {
+    font-size: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .mainContents {
+    padding-top: 30px;  
+  }
+}
+
+@media screen and (min-width: 501px){
+  .ascii {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 801px){
+  .ascii {
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .ascii {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .welcomeText {
@@ -28,14 +69,13 @@ pre {
 .mainContents {
   width: 100%;
   flex-direction: row;
-  padding-top: 30px;
+  animation: fadein 1s;
 }
 
 .tree {
   width: 30px;
   text-align: left;
   margin: auto;
-  padding-right: 70px;
   width: 200px;
   position: relative;
 }
@@ -69,7 +109,7 @@ pre {
   width: 32px;
   display: grid;
   grid-row-start: 1;
-  grid-row-end: 30;
+  grid-row-end: 3;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
@@ -87,16 +127,22 @@ pre {
 }
 
 .cv {
-  grid-row: 14;
+  grid-row: 13;
   cursor: pointer;
 }
 
+.github {
+  grid-row: 15;
+  cursor: pointer;
+ }
+
 .soundcloud {
- grid-row: 28;
+ grid-row: 29;
  cursor: pointer;
 }
 
 .spotify {
+  margin-top: 2px;
   grid-row: 30;
   cursor: pointer;
 }

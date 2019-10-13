@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1500ff;
+  background-color: cornflowerblue;
   cursor: url('./cursor/Original Arrow Windows 95.cur'), auto;
   transition: background-color 0.5s linear;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -15,6 +15,7 @@ body {
   -ms-animation: fadein 1s; /* Internet Explorer */
   -o-animation: fadein 1s; /* Opera < 12.1 */
   animation: fadein 1s;
+  font-weight: bold;
 }
 
 @keyframes fadein {

@@ -1,7 +1,18 @@
 .mainText {
-  max-width: 600px;
+  max-width: 620px;
   animation: fadein 1s;
   margin: auto;
+  padding-top: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 200px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.mainText a {
+  color: darkgreen;
+  text-decoration: underline;
 }
 
 pre.wrap{
@@ -11,3 +22,19 @@ pre.wrap{
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
  }
+
+.backButton {
+  padding-top: 30px;
+  cursor: pointer;
+  text-align: left;
+  overflow-wrap: unset;
+  border-bottom: solid white 0.5px;
+  white-space: nowrap;
+  width: 55px;
+  min-width: 55px;
+}
+
+.backButton a {
+  color:#f9f9f9;
+  text-decoration: none;
+}
