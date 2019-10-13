@@ -17,11 +17,11 @@ const MainContents = (props:any) => {
     aboutMe
   } = props
 
-  const tree = String.raw`├── about me/
+  const tree = String.raw`├──── 🙋🏾about me/
   │   │      
   │   └── 
   │   
-  ├── professional experience/
+  ├── 🎓professional experience/
   │   │
   │   ├──
   │   │
@@ -29,9 +29,9 @@ const MainContents = (props:any) => {
   │   │
   │   └── 
   │
-  └── etc/
+  └── ✨fun/
       │
-      └── my music/
+      └── 🎵boogie tunes/
           │
           ├──
           │
@@ -94,7 +94,6 @@ const MainContents = (props:any) => {
 const App = (props: any) => {
   const {
     aboutMe,
-    setAboutMe
   } = props
  
   return (
